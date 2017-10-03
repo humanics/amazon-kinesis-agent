@@ -51,7 +51,7 @@ public class PatternConstants {
     public static final String ISO8601_LOCAL = "(?:\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?)(?:Z|(?:[-+]\\d{4}))";
 
     public static final String SEVERITY = "F|E|W|I|D";
-    public static final String COMPONENT = "ACCESS|COMMAND|CONTROL|FTDC|GEO|INDEX|NETWORK|QUERY|REPL|SHARDING|STORAGE|JOURNAL|WRITE"
+    public static final String COMPONENT = "ACCESS|COMMAND|CONTROL|FTDC|GEO|INDEX|NETWORK|QUERY|REPL|SHARDING|STORAGE|JOURNAL|WRITE";
     public static final String CONTEXT = ".*";
 
     public static final String SYSLOGFACILITY = "<" + NONNEGINT + "." + NONNEGINT + ">";
