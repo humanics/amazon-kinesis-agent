@@ -52,7 +52,7 @@ public class PatternConstants {
 
     public static final String SEVERITY = "F|E|W|I|D";
     public static final String COMPONENT = "ACCESS|COMMAND|CONTROL|FTDC|GEO|INDEX|NETWORK|QUERY|REPL|SHARDING|STORAGE|JOURNAL|WRITE"
-    public static final String CONTEXT = ".*"
+    public static final String CONTEXT = ".*";
 
     public static final String SYSLOGFACILITY = "<" + NONNEGINT + "." + NONNEGINT + ">";
     public static final String PROG = "([\\w\\._/%-]+)";
